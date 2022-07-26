@@ -1,5 +1,5 @@
 #include <PZEM004Tv30.h>
-PZEM004Tv30 pzem(&Serial2,16,17);
+PZEM004Tv30 pzem(&Serial2, 16, 17);
 void setup() {
   Serial.begin(115200);
 }
